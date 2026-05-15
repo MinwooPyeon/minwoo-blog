@@ -1,5 +1,6 @@
 import { getPost, getAllSlugs } from "@/lib/posts";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -55,7 +56,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
       <hr />
 
       <div className="prose">
-        <MDXRemote source={post.content} />
+        <MDXRemote source={post.content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
       </div>
     </article>
   );
