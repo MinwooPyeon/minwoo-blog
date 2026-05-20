@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
-import type { PostMeta, Post } from "./types";
+import type { PostMeta, Post, TocEntry } from "./types";
 
 const POSTS_DIR = path.join(process.cwd(), "posts");
 
@@ -13,6 +13,24 @@ function parseDate(raw: unknown): string {
     return raw.toISOString().split("T")[0];
   }
   return String(raw ?? "").split(" ")[0];
+}
+
+function extractToc(content: string): TocEntry[] {
+  const lines = content.split("\n");
+  const toc: TocEntry[] = [];
+  const seen: Record<string, number> = {};
+
+  for (const line of lines) {
+    const match = line.match(/^(#{2,3})\s+(.+)/);
+    if (!match) continue;
+    const level = match[1].length;
+    const text = match[2].trim().replace(/[*_`]/g, "");
+    const base = text.toLowerCase().replace(/[^\w가-힣\s-]/g, "").replace(/\s+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
+    seen[base] = (seen[base] ?? -1) + 1;
+    const id = seen[base] === 0 ? base : `${base}-${seen[base]}`;
+    toc.push({ id, text, level });
+  }
+  return toc;
 }
 
 function slugFromFilename(filename: string): string {
@@ -62,6 +80,7 @@ export function getPost(slug: string): Post | null {
     description: data.description ?? "",
     readingTime: `${Math.ceil(stats.minutes)}분`,
     content,
+    toc: extractToc(content),
   };
 }
 

@@ -5,6 +5,7 @@ categories: [OPIc, 영어]
 tags: [opic, 영어회화, 실전연습, 고득점]
 author: minwoo
 series: "OPIc 시리즈"
+description: "자기 설문지(Background Survey)는 문제 출제의 근거가 됩니다. 아래 조합은 준비하기 쉽고 에피소드를 풍부하게 만들 수 있습니다."
 ---
 
 ## 시험 전 준비 — 설문지 전략

@@ -4,6 +4,7 @@ date: 2026-05-07 09:00:00 +0900
 categories: [프로젝트, 임베디드]
 tags: [freertos, arm, cortex-m3, qemu, cmake, rtos, 펌웨어]
 author: minwoo
+description: "ARM Cortex-M3 기반 실시간 센서 모니터링 펌웨어입니다. 하드웨어 없이 QEMU 에뮬레이터로 실행 가능한 임베디드 포트폴리오 프로젝트입니다."
 ---
 
 ## 프로젝트 개요

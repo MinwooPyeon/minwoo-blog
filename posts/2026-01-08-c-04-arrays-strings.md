@@ -5,6 +5,7 @@ categories: [C언어, 기초]
 tags: [c, 배열, 문자열, string.h]
 author: minwoo
 series: "C언어 시리즈"
+description: "> 배열은 0-indexed. data[size]는 범위를 벗어난 접근으로 미정의 동작(UB)입니다."
 ---
 
 ## 1차원 배열

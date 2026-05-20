@@ -5,6 +5,7 @@ categories: [C++, 객체지향]
 tags: [cpp, 생성자, 소멸자, 복사생성자, RAII]
 author: minwoo
 series: "C++ 시리즈"
+description: "생성자 본문보다 초기화 리스트를 사용하는 것이 효율적입니다:"
 ---
 
 ## 생성자 종류

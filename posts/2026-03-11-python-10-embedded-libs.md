@@ -5,6 +5,7 @@ categories: [Python, 임베디드]
 tags: [python, pyserial, opencv, numpy, 임베디드]
 author: minwoo
 series: "Python 시리즈"
+description: "Python은 임베디드 상위 소프트웨어(HMI, 데이터 처리, AI 추론)에서 C/C++과 시리얼로 연동하는 구조가 일반적입니다."
 ---
 
 ## pyserial — 시리얼 통신

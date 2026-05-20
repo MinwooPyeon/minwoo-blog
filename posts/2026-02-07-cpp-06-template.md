@@ -5,6 +5,7 @@ categories: [C++, 제네릭]
 tags: [cpp, template, 제네릭, 함수템플릿, 클래스템플릿]
 author: minwoo
 series: "C++ 시리즈"
+description: "타입에 관계없이 동작하는 제네릭 함수:"
 ---
 
 ## 함수 템플릿

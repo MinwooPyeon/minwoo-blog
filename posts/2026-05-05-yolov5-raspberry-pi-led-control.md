@@ -4,6 +4,7 @@ date: 2026-05-05 09:00:00 +0900
 categories: [프로젝트, 컴퓨터비전]
 tags: [yolov5, raspberry-pi, opencv, serial, python, 캡스톤]
 author: minwoo
+description: "캡스톤 디자인 프로젝트로 YOLOv5 객체 탐지 모델을 Raspberry Pi에 올려 사람이 탐지되면 Arduino로 신호를 보내 LED를 제어하는 시스템을 구축했습니다."
 ---
 
 ## 프로젝트 개요

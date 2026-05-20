@@ -5,6 +5,7 @@ categories: [Python, 자료구조]
 tags: [python, list, dict, tuple, set]
 author: minwoo
 series: "Python 시리즈"
+description: "변경 불가능한 시퀀스 (불변 데이터, 함수 반환값에 적합):"
 ---
 
 ## 리스트

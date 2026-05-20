@@ -5,6 +5,7 @@ categories: [Python, 동시성]
 tags: [python, threading, queue, asyncio, concurrent]
 author: minwoo
 series: "Python 시리즈"
+description: "Python의 GIL(Global Interpreter Lock)으로 인해 CPU 집약적 작업은 멀티스레딩으로 속도 향상이 안 됩니다:"
 ---
 
 ## threading 기본

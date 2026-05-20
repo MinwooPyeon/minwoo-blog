@@ -1,5 +1,5 @@
 import { getAllPosts } from "@/lib/posts";
-import PostList from "@/components/PostList";
+import PostSearch from "@/components/PostSearch";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "포스트" };
@@ -9,9 +9,9 @@ export default function PostsPage() {
   return (
     <div>
       <h1 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "1.5rem" }}>
-        포스트 <span style={{ fontWeight: 400, color: "#666", fontSize: "0.9rem" }}>({posts.length})</span>
+        포스트
       </h1>
-      <PostList posts={posts} />
+      <PostSearch posts={posts} />
     </div>
   );
 }

@@ -5,6 +5,7 @@ categories: [Python, 고급]
 tags: [python, generator, iterator, yield, lazy]
 author: minwoo
 series: "Python 시리즈"
+description: "yield로 값을 하나씩 생성 — 메모리 효율적:"
 ---
 
 ## 이터레이터 프로토콜

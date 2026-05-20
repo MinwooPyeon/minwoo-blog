@@ -5,6 +5,7 @@ categories: [OPIc, 영어]
 tags: [opic, 영어회화, 영어시험, 자격증]
 author: minwoo
 series: "OPIc 시리즈"
+description: "OPIc(Oral Proficiency Interview - computer)은 ACTFL이 주관하는 영어 말하기 능력 평가 시험입니다. 일반적인 영어 시험과 달리 문법·독해 대신 실제 의사소통 능력을 측정합니다."
 ---
 
 ## OPIc이란?

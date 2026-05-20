@@ -5,6 +5,7 @@ categories: [Python, 기초]
 tags: [python, if, for, while, comprehension]
 author: minwoo
 series: "Python 시리즈"
+description: "- range(start, stop, step)으로 다양한 숫자 시퀀스 생성 - enumerate로 인덱스 + 값 동시에, zip으로 두 시퀀스 병렬 순회 - 리스트 컴프리헨션으로 간결하고 빠른 리스트 생성 - for-else는 검색 루프에서 '못 찾은 경우' 처..."
 ---
 
 ## 조건문

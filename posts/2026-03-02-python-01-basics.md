@@ -5,6 +5,7 @@ categories: [Python, 기초]
 tags: [python, 자료형, 변수, 연산자]
 author: minwoo
 series: "Python 시리즈"
+description: "- 동적 타이핑: 변수 선언 시 타입 지정 불필요 - 들여쓰기로 블록 구분 (중괄호 없음) - GIL(Global Interpreter Lock)로 멀티스레딩 제한 - 임베디드 상위 소프트웨어, AI/CV 분야에 널리 사용"
 ---
 
 ## Python의 특징

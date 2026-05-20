@@ -5,6 +5,7 @@ categories: [C언어, 포인터]
 tags: [c, 이중포인터, 함수포인터, 콜백]
 author: minwoo
 series: "C언어 시리즈"
+description: "함수도 메모리에 저장되므로 포인터로 가리킬 수 있습니다:"
 ---
 
 ## 이중 포인터 (포인터의 포인터)

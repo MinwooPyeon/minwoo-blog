@@ -5,6 +5,7 @@ categories: [C++, 객체지향]
 tags: [cpp, 다형성, virtual, 순수가상함수, 인터페이스]
 author: minwoo
 series: "C++ 시리즈"
+description: "순수 가상 함수가 하나라도 있으면 추상 클래스 — 객체 직접 생성 불가:"
 ---
 
 ## 가상 함수와 동적 바인딩

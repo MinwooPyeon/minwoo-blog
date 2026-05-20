@@ -4,6 +4,7 @@ date: 2026-05-08 09:00:00 +0900
 categories: [프로젝트, 안드로이드]
 tags: [android, kotlin, jetpack-compose, ml-kit, tflite, mvi, 키오스크]
 author: minwoo
+description: "안과 검진 및 바이탈 측정을 통합한 키오스크 솔루션입니다. 시력, 황반변성, 사시, 노안조절력 등 다양한 안과 검사와 혈압, 악력, 치매 검사까지 하나의 키오스크에서 수행합니다. 실버계층의 건강 관리 접근성 향상을 목표로 기획했습니다."
 ---
 
 ## 프로젝트 개요

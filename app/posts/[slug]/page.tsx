@@ -1,9 +1,11 @@
 import { getPost, getAllSlugs } from "@/lib/posts";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import TableOfContents from "@/components/TableOfContents";
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -70,8 +72,13 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
       <hr />
 
+      <TableOfContents toc={post.toc} />
+
       <div className="prose">
-        <MDXRemote source={post.content} options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }} />
+        <MDXRemote
+          source={post.content}
+          options={{ mdxOptions: { remarkPlugins: [remarkGfm], rehypePlugins: [rehypeSlug] } }}
+        />
       </div>
     </article>
   );

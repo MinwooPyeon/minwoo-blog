@@ -8,8 +8,15 @@ export interface PostMeta {
   readingTime?: string;
 }
 
+export interface TocEntry {
+  id: string;
+  text: string;
+  level: number;
+}
+
 export interface Post extends PostMeta {
   content: string;
+  toc: TocEntry[];
 }
 
 export type CategoryColor = {

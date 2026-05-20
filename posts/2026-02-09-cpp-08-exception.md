@@ -5,6 +5,7 @@ categories: [C++, 고급]
 tags: [cpp, 예외처리, try, catch, throw]
 author: minwoo
 series: "C++ 시리즈"
+description: "예외를 던지지 않는 함수에 명시합니다. 성능 최적화에 중요합니다:"
 ---
 
 ## 기본 예외 처리

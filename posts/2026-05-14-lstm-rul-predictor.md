@@ -4,6 +4,7 @@ date: 2026-05-14 09:00:00 +0900
 categories: [프로젝트, AI]
 tags: [lstm, pytorch, python, nasa-cmapss, rul, 예지보전, 시계열]
 author: minwoo
+description: "NASA CMAPSS 제트엔진 시뮬레이션 데이터를 활용해 잔여 수명(RUL, Remaining Useful Life) 을 예측하는 LSTM 모델을 구현했습니다."
 ---
 
 ## 프로젝트 개요

@@ -5,6 +5,7 @@ categories: [C++, 객체지향]
 tags: [cpp, 상속, 기반클래스, 파생클래스, override]
 author: minwoo
 series: "C++ 시리즈"
+description: "- 기반 클래스 소멸자는 반드시 virtual로 선언 - 파생 클래스에서 오버라이드 시 override 키워드로 오타 방지 - 생성 순서: 기반 → 파생 / 소멸 순서: 파생 → 기반 - 다중 상속은 인터페이스(순수 가상 함수만 있는 클래스) 위주로 사용"
 ---
 
 ## 상속 기본

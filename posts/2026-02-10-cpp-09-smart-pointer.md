@@ -5,6 +5,7 @@ categories: [C++, 메모리]
 tags: [cpp, unique_ptr, shared_ptr, 스마트포인터, RAII]
 author: minwoo
 series: "C++ 시리즈"
+description: "여러 포인터가 같은 객체를 공유합니다 (참조 카운팅):"
 ---
 
 ## 왜 스마트 포인터인가?

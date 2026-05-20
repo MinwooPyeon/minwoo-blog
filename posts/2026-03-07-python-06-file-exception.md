@@ -5,6 +5,7 @@ categories: [Python, 파일]
 tags: [python, 파일, 예외처리, json, csv]
 author: minwoo
 series: "Python 시리즈"
+description: "설정 파일, 센서 데이터 직렬화에 활용:"
 ---
 
 ## 예외 처리

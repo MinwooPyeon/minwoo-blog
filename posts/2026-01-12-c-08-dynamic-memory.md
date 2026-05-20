@@ -5,6 +5,7 @@ categories: [C언어, 메모리]
 tags: [c, malloc, free, 메모리누수, 동적할당]
 author: minwoo
 series: "C언어 시리즈"
+description: "임베디드에서 malloc은 여러 이유로 주의가 필요합니다:"
 ---
 
 ## 정적 vs 동적 메모리

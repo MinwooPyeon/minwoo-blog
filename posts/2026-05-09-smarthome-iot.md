@@ -4,6 +4,7 @@ date: 2026-05-09 09:00:00 +0900
 categories: [프로젝트, 임베디드]
 tags: [esp32, freertos, mqtt, ir, esp-idf, raspberry-pi, android, 스마트홈]
 author: minwoo
+description: "IoT 미지원 레거시 가전에 IR 제어를 적용해 스마트홈 환경을 구축하는 통합 솔루션입니다. 음성 명령, 평면도 기반 디바이스 관리, 루틴 자동화, AI 자동 제어를 하나의 앱에서 제공합니다."
 ---
 
 ## 프로젝트 개요

@@ -5,6 +5,7 @@ categories: [Python, 기초]
 tags: [python, 함수, 인수, 데코레이터, 타입힌트]
 author: minwoo
 series: "Python 시리즈"
+description: "함수를 감싸서 기능을 추가합니다:"
 ---
 
 ## 함수 기본

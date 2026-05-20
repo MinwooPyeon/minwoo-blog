@@ -5,6 +5,7 @@ categories: [C언어, 기초]
 tags: [c, if, switch, for, while]
 author: minwoo
 series: "C언어 시리즈"
+description: "간단한 조건 분기에 사용합니다:"
 ---
 
 ## 조건문

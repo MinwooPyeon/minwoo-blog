@@ -5,6 +5,7 @@ categories: [Python, 고급]
 tags: [python, 모듈, 패키지, import, 가상환경]
 author: minwoo
 series: "Python 시리즈"
+description: "프로젝트별 독립적인 패키지 환경:"
 ---
 
 ## 모듈

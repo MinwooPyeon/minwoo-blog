@@ -5,6 +5,7 @@ categories: [C++, 모던C++]
 tags: [cpp, lambda, c++17, c++20, 범위for]
 author: minwoo
 series: "C++ 시리즈"
+description: "값이 없을 수 있는 상황:"
 ---
 
 ## 람다 표현식

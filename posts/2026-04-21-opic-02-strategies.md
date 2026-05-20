@@ -5,6 +5,7 @@ categories: [OPIc, 영어]
 tags: [opic, 영어회화, 답변전략, 빈출주제]
 author: minwoo
 series: "OPIc 시리즈"
+description: "모든 OPIc 답변은 다음 구조로 말하면 일관성과 점수가 올라갑니다."
 ---
 
 ## 핵심 답변 구조 — 3단 구성

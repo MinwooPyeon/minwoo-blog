@@ -5,6 +5,7 @@ categories: [C언어, 고급]
 tags: [c, 전처리기, 매크로, define, ifdef]
 author: minwoo
 series: "C언어 시리즈"
+description: "컴파일 전에 소스코드를 텍스트 변환하는 단계입니다. #으로 시작하는 지시어를 처리합니다."
 ---
 
 ## 전처리기란?
