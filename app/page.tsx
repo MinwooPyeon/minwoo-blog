@@ -11,30 +11,7 @@ export default function Home() {
 
   return (
     <div>
-      {/* 소개 */}
-      <section style={{ padding: "2rem 0 2.5rem", borderBottom: "1px solid var(--color-border)" }}>
-        <p style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "0.6rem", letterSpacing: "-0.02em" }}>
-          편민우
-        </p>
-        <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", lineHeight: 1.7, marginBottom: "1.2rem", wordBreak: "keep-all" }}>
-          임베디드 시스템, AI, 안드로이드 앱 개발에 관심이 많은 개발자입니다.
-          FreeRTOS, YOLOv5, LSTM 등 다양한 프로젝트 기록을 남기고 있습니다.
-        </p>
-        <div style={{ display: "flex", gap: "1rem", fontSize: "0.875rem" }}>
-          <a href="https://github.com/MinwooPyeon" target="_blank" rel="noreferrer" style={{ color: "var(--color-text-muted)" }}>
-            GitHub
-          </a>
-          <a href="mailto:jh06041@naver.com" style={{ color: "var(--color-text-muted)" }}>
-            이메일
-          </a>
-          <Link href="/about" style={{ color: "var(--color-text-muted)" }}>
-            소개
-          </Link>
-        </div>
-      </section>
-
-      {/* 최근 포스트 */}
-      <section style={{ paddingTop: "2rem" }}>
+      <section style={{ paddingTop: "1rem" }}>
         <p style={{ fontSize: "0.78rem", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--color-text-subtle)", marginBottom: "0.75rem" }}>
           최근 포스트
         </p>
