@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
@@ -11,11 +12,14 @@ export default function Header() {
       <p style={{ color: "#666", fontSize: "0.9rem", marginBottom: "0.75rem" }}>
         임베디드 · AI · 안드로이드 개발 기록
       </p>
-      <nav style={{ display: "flex", gap: "1rem", fontSize: "0.9rem" }}>
+      <nav style={{ display: "flex", gap: "1rem", fontSize: "0.9rem", alignItems: "center" }}>
         <Link href="/">홈</Link>
         <Link href="/posts">포스트</Link>
         <Link href="/tags">태그</Link>
         <Link href="/about">소개</Link>
+        <span style={{ marginLeft: "auto" }}>
+          <ThemeToggle />
+        </span>
       </nav>
       <hr style={{ marginTop: "1.5rem" }} />
     </header>

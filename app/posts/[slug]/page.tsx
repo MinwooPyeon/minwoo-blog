@@ -13,7 +13,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  return { title: post.title, description: post.description };
+  return {
+    title: post.title,
+    description: post.description || undefined,
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.description || undefined,
+      publishedTime: post.date,
+      tags: post.tags,
+    },
+    twitter: {
+      card: "summary",
+      title: post.title,
+      description: post.description || undefined,
+    },
+  };
 }
 
 function formatDate(dateStr: string) {
